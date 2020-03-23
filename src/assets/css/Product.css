@@ -1,0 +1,31 @@
+.header {
+    background: #000000;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.troley {
+    position: relative;
+}
+
+.troley img {
+    width: 30px;
+}
+
+
+@import '~antd/dist/antd.min.css';
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #e4a3d4;
+    
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
